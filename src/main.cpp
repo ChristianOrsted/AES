@@ -116,17 +116,14 @@ void demonstrateEncryption()
     printSeparator();
 }
 
+
+
 int main()
 {
-    std::cout << "\n";
-    std::cout << "╔════════════════════════════════════════════════════════════════╗" << std::endl;
-    std::cout << "║           AES Encryption/Decryption System                     ║" << std::endl;
-    std::cout << "║           CBC Mode & CTR Mode Implementation                   ║" << std::endl;
-    std::cout << "╚════════════════════════════════════════════════════════════════╝" << std::endl;
     printSeparator();
     
     // 加密解密演示
-    demonstrateEncryption();
+    // demonstrateEncryption();
     
     // 测试用例1 - CBC
     testCBCCase(1, 

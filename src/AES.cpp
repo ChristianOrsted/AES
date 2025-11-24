@@ -239,7 +239,7 @@ void AES::addRoundKey(uint8_t state[4][4], int round)
 void AES::encryptBlock(const uint8_t* input, uint8_t* output)
 {
     uint8_t state[4][4];
-    
+
     // 将输入复制到state矩阵（列优先）
     for (int i = 0; i < 4; i++)
     {
